@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.cs.z1760203.splash.MainActivity"
+    android:background="@drawable/background">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/auger"
+        android:src="@drawable/alien01"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/carbine"
+        android:layout_toEndOf="@+id/carbine"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carbine"
+        android:src="@drawable/machine01"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rocket"
+        android:src="@drawable/rocket01"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="65dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ump"
+        android:src="@drawable/ump01"
+        android:layout_above="@+id/textView6"
+        android:layout_toRightOf="@+id/rocket"
+        android:layout_toEndOf="@+id/rocket"
+        android:layout_marginTop="65dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/win"
+        android:src="@drawable/win01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moss"
+        android:src="@drawable/moss01"
+        android:layout_alignTop="@+id/win"
+        android:layout_toRightOf="@+id/win"
+        android:layout_toEndOf="@+id/win" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Carbine M4"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/carbine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Auger Rifle"
+        android:id="@+id/textiew5"
+        android:layout_below="@+id/auger"
+        android:layout_alignLeft="@+id/ump"
+        android:layout_alignStart="@+id/ump"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="RPG-7 Rocket Launcher"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/rocket"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="UMP-45"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/ump"
+        android:layout_alignRight="@+id/textiew5"
+        android:layout_alignEnd="@+id/textiew5"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Winchester&apos;73"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/moss"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mossberg 535"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignLeft="@+id/textiew5"
+        android:layout_alignStart="@+id/textiew5"
+        android:textColor="#ffffff" />
+</RelativeLayout>
